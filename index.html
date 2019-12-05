@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Super Awesome Labs | Website Development, Website Design, Search Engine
+      Optimozation (SEO)
+    </title>
+    <meta
+      name="description"
+      content="Super Awesome Labs | Website Development, Website Design, Search Engine Optimozation (SEO)"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="header-container container">
+        <a
+          href="/"
+          class="brand-name"
+          alt="Super Awesome Labs"
+          aria-label="Super Awesome Labs"
+        >
+          <div>
+            <img src="./assets/images/logo.png" alt="logo" class="logo" />
+            <span class="brand-name">Super Awesome Labs</span>
+          </div>
+          <div>
+            <a href="/about" class="nav-link">About</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#" class="nav-link">Contact</a>
+          </div>
+        </a>
+      </nav>
+    </header>
+    <div class="hero-container">
+      <div class="container">
+        <h1 class="hero-tagline">A whimsical website all about yorkies!</h1>
+        <a href="./pages/about.html" class="hero-button">About Us</a>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="container">
+          <div class="columns">
+            <div class="left-column">
+              <p class="column-header">Subscribe</p>
+              <p class="column-text">Receive our free monthly newsletters!</p>
+              <label for="subscribe-input" class="subscribe-labels" type="text"
+                >Subscribe</label
+              >
+              <input
+                aria-label="subscribe input"
+                type="text"
+                name="email"
+                required="required"
+                placeholder="Email Address"
+                id="subscribe-input"
+              />
+              <span>
+                <label
+                  for="subscribe-button"
+                  class="subscribe-labels"
+                  type="button"
+                  >Subscribe</label
+                >
+                <input type="hidden" name="action" value="subscribe" />
+                <button id="subscribe-button">
+                  Subscribe
+                </button>
+              </span>
+            </div>
+            <div class="right-column">
+              <p class="column-header">Social Media</p>
+              <a href="#" class="social-media-links column-text">Twitter</a>
+              <a href="#" class="social-media-links column-text">Instagram</a>
+              <a href="#" class="social-media-links column-text">YouTube</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
