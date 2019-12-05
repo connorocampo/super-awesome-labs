@@ -24,10 +24,10 @@
           aria-label="Super Awesome Labs"
         >
           <div>
-            <img src="./assets/images/logo.png" alt="logo" class="logo" />
+            <img src="./assets/icons/logo.png" alt="logo" class="logo" />
             <span class="brand-name">Super Awesome Labs</span>
           </div>
-          <div>
+          <div class="nav-links">
             <a href="/about" class="nav-link">About</a>
             <a href="#" class="nav-link">Blog</a>
             <a href="#" class="nav-link">Contact</a>
@@ -37,50 +37,56 @@
     </header>
     <div class="hero-container">
       <div class="container">
-        <h1 class="hero-tagline">A whimsical website all about yorkies!</h1>
-        <a href="./pages/about.html" class="hero-button">About Us</a>
+        <h1 class="hero-tagline">
+          We're a Super Awesome web development company!
+        </h1>
+        <a href="./pages/about.html" class="hero-button">Call to Awesome</a>
       </div>
     </div>
     <footer>
-      <div class="footer-container">
-        <div class="container">
-          <div class="columns">
-            <div class="left-column">
-              <p class="column-header">Subscribe</p>
-              <p class="column-text">Receive our free monthly newsletters!</p>
-              <label for="subscribe-input" class="subscribe-labels" type="text"
+      <div class="container">
+        <div class="columns">
+          <div class="left-column">
+            <p class="footer-header">Super Subscribe</p>
+            <p class="column-text">Receive awesome newsletters!</p>
+            <label for="subscribe-input" class="subscribe-labels" type="text"
+              >Subscribe</label
+            >
+            <input
+              aria-label="subscribe input"
+              type="text"
+              name="email"
+              required="required"
+              placeholder="Email Address"
+              id="subscribe-input"
+            />
+            <span>
+              <label
+                for="subscribe-button"
+                class="subscribe-labels"
+                type="button"
                 >Subscribe</label
               >
-              <input
-                aria-label="subscribe input"
-                type="text"
-                name="email"
-                required="required"
-                placeholder="Email Address"
-                id="subscribe-input"
-              />
-              <span>
-                <label
-                  for="subscribe-button"
-                  class="subscribe-labels"
-                  type="button"
-                  >Subscribe</label
-                >
-                <input type="hidden" name="action" value="subscribe" />
-                <button id="subscribe-button">
-                  Subscribe
-                </button>
-              </span>
-            </div>
-            <div class="right-column">
-              <p class="column-header">Social Media</p>
-              <a href="#" class="social-media-links column-text">Twitter</a>
-              <a href="#" class="social-media-links column-text">Instagram</a>
-              <a href="#" class="social-media-links column-text">YouTube</a>
-            </div>
+              <input type="hidden" name="action" value="subscribe" />
+              <button id="subscribe-button">
+                Subscribe
+              </button>
+            </span>
+          </div>
+          <div class="right-column">
+            <p class="footer-header ">Awesome Social Media</p>
+            <a href="#" class="social-media-links column-text">Twitter</a>
+            <a href="#" class="social-media-links column-text">Instagram</a>
+            <a href="#" class="social-media-links column-text">YouTube</a>
           </div>
         </div>
       </div>
+      <!-- /.container  -->
     </footer>
+    <div class="copyright">
+      <div class="container copyright-container">
+        <p>© Super Awesome</p>
+      </div>
+    </div>
   </body>
 </html>
