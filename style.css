@@ -68,6 +68,7 @@ a {
 
 *::selection {
   background: #ffff2d !important; /* WebKit/Blink Browsers */
+  color: #292f36;
 }
 
 .container {
