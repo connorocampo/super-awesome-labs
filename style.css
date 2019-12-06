@@ -176,9 +176,11 @@ header {
   font-family: "Open Sans Bold";
   padding: 1em 2em;
   text-decoration: none;
+  transition: 0.2s ease-in-out;
 }
 
 .hero-button:hover {
+  box-shadow: 10px 10px 0 #4eccc4;
   cursor: pointer;
 }
 
