@@ -13,3 +13,7 @@
 
 <h2>Contact Information</h2>
 <p>Got a question? Or perhaps a Super Awesome comment? You can send me an email at superawesomelabs@gmail.com.</p>
+
+<h1>Development</h1>
+<p>This website is running on Heroku.</p>
+<p>Everything pushed to GitHub will be automatically pushed to Heroku.</p>
