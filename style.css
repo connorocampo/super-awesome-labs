@@ -228,7 +228,6 @@ footer {
 }
 
 .social-media-links {
-  /* display: block; */
   text-align: right;
   text-decoration: none;
 }
@@ -257,7 +256,7 @@ footer {
   height: 40px;
   font-family: "Oswald Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  margin-top: 50px;
+  margin-top: 10px;
   padding-left: 1em;
   width: 300px;
 }
@@ -286,8 +285,6 @@ footer {
   color: #ffffff;
   font-family: "Oswald Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 45px;
-  /* display: flex;
-  align-items: center; */
   display: flex;
   align-items: center;
 }
@@ -337,13 +334,17 @@ footer {
   text-decoration: none;
 }
 
-@media screen and (min-width: 600px) {
+.mobile-link:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
   #menu-button {
     display: none;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .logo {
     display: none;
   }
@@ -374,6 +375,11 @@ footer {
 
   .hero-button {
     display: none;
+  }
+
+  #subscribe-button {
+    margin-top: 0.5em;
+    margin-left: 1px;
   }
 
   footer {
