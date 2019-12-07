@@ -326,6 +326,33 @@ footer {
   border-radius: 30px;
 }
 
+.mobile-menu {
+  background: #4eccc4;
+  height: calc(100vh - 45px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  font-family: "Oswald Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+}
+
+.mobile-menu a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+  .mobile-menu-link {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .logo {
     display: none;
@@ -333,6 +360,10 @@ footer {
 
   .brand-name {
     font-size: 30px;
+  }
+
+  .about-link {
+    display: none;
   }
 
   .hero-container {
