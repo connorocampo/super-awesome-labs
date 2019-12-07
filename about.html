@@ -32,9 +32,7 @@
           <div>
             <a href="/" class="nav-link about-link">Home</a>
             <a href="/about" class="nav-link about-link">About</a>
-            <a href="/mobile-menu.html" class="nav-link mobile-menu-link"
-              >Menu</a
-            >
+            
             <!-- <a href="#" class="nav-link">Blog</a> -->
             <!-- <a href="#" class="nav-link">Contact</a> -->
           </div>
@@ -42,6 +40,14 @@
       </nav>
     </header>
     <!-- /header  -->
+
+    <button id="menu-button" onclick="toggleMenu()">Menu</button>
+            <div id="mobile-menu" class="hidden">
+              <div id="mobile-links">
+                  <a href="/" class="mobile-link">Home</a>
+                  <a href="/about" class="mobile-link">About</a>
+              </div>
+            </div>
 
     <div class="about-container">
       <div class="container">
@@ -143,5 +149,6 @@
       </div>
     </div>
     <!-- /footer  -->
+    <script src="nav.js" /></script>
   </body>
 </html>

@@ -31,15 +31,19 @@
           <div class="nav-links">
             <a href="/" class="nav-link about-link">Home</a>
             <a href="/about" class="nav-link about-link">About</a>
-            <a href="/mobile-menu.html" class="nav-link mobile-menu-link"
-              >Menu</a
-            >
             <!-- <a href="#" class="nav-link">Blog</a>
             <a href="#" class="nav-link">Contact</a> -->
           </div>
         </a>
       </nav>
     </header>
+    <button id="menu-button" onclick="toggleMenu()">Menu</button>
+            <div id="mobile-menu" class="hidden">
+              <div id="mobile-links">
+                  <a href="/" class="mobile-link">Home</a>
+                  <a href="/about" class="mobile-link">About</a>
+              </div>
+            </div>
     <div class="hero-container">
       <div class="container">
         <h1 class="hero-tagline">
@@ -130,5 +134,7 @@
         <p>© Super Awesome</p>
       </div>
     </div>
+    <script src="nav.js" /></script>
+
   </body>
 </html>
