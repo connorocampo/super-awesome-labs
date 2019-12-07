@@ -109,6 +109,7 @@ header {
 .brand-name {
   font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
+  margin-top: -5px;
   text-decoration: none;
 }
 
@@ -296,7 +297,6 @@ footer {
 
 #menu-button {
   background: #4ecdc4;
-  color: white;
   border: none;
   height: 90px;
   font-size: 18px;
@@ -312,8 +312,7 @@ footer {
 }
 
 #mobile-menu {
-  background: pink;
-  height: 500px;
+  height: 106px;
 }
 
 #mobile-links {
@@ -322,15 +321,20 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 500px;
+  height: 100px;
 }
 
 .mobile-link {
+  background: #ffffff;
+  color: #292f36;
   font-family: "Oswald Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
-  margin: 0.5em;
-  padding: 1em 2em;
+  height: 50px;
+  margin-bottom: 3px;
+  padding-top: 5px;
+  padding-left: 1em;
   text-decoration: none;
+  width: 100%;
 }
 
 .mobile-link:hover {
