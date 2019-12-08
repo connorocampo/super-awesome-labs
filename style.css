@@ -131,6 +131,10 @@ header {
   width: 100px;
 }
 
+input[type="submit"] {
+  -webkit-appearance: button;
+}
+
 .hidden {
   display: none;
 }
