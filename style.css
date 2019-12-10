@@ -379,7 +379,7 @@ footer {
 
 #social-media-links {
   text-align: right;
-  margin-top: -40px;
+  margin-top: 40px;
 }
 
 .social-media-link {
@@ -539,6 +539,7 @@ footer {
 
   #social-media-links {
     text-align: left;
+    margin-top: -40px;
   }
 
   .footer-content {
