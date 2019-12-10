@@ -346,6 +346,15 @@ footer {
   font-size: 24px;
 }
 
+.response {
+  color: #ffffff;
+}
+
+#mce-success-response {
+  position: absolute;
+  margin-top: 10px;
+}
+
 #social-media-links {
   text-align: right;
 }
