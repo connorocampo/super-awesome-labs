@@ -17,7 +17,7 @@
 <h1>Development</h1>
 <p>This website is running on Heroku.</p>
 <p>Use regular GIT commands to push to GitHub.<p>
-<ul>First step: <code>git add .</code></ul>
-<ul>Second step: <code>git commit -m 'Your Message Here'</code>.</ul>
-<ul>Third step: <code>git push</code>.</ul>
-<p>This site will then be automatically updated in Heroku.</p>
+<ul>Step 1: <code>git add .</code></ul>
+<ul>Step 2: <code>git commit -m 'Your Message Here'</code>.</ul>
+<ul>Step 3: <code>git push</code>.</ul>
+<p>After Step 3, the website will then be updated in Heroku.</p>
