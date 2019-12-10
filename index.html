@@ -8,7 +8,7 @@
       Super Awesome Labs | Website Development, Website Design, Search Engine
       Optimization (SEO)
     </title>
-    <link rel="icon" type="image/png" href="./assets/icons/logo.png" />
+    <link rel="icon" type="image/png" href="./assets/icons/favicon.png" />
     <meta
       name="description"
       content="Super Awesome Labs | Website Development, Website Design, Search Engine Optimozation (SEO)"
@@ -26,12 +26,14 @@
           aria-label="Super Awesome Labs"
         >
           <div>
-            <img src="./assets/icons/logo.png" alt="logo" class="logo" />
-            <span class="brand-name">Super Awesome Labs</span>
+            <!-- <img src="./assets/icons/logo.png" alt="logo" class="logo" /> -->
+            <img src="./assets/icons/SALlogo.svg" alt="logo" class="desktop-logo" />
+            <img src="./assets/icons/mobile-logo.svg" alt="logo" class="mobile-logo" />
+            <span class="header-tagline">Website solutions for small businesses</span>
           </div>
           <div class="nav-links">
-            <a href="/" class="nav-link about-link">Home</a>
-            <a href="/about" class="nav-link about-link">About</a>
+            <!-- <a href="/" class="nav-link about-link">Home</a> -->
+            <!-- <a href="/about-us.html" class="nav-link about-link">About Us</a> -->
             <!-- <a href="#" class="nav-link">Blog</a> -->
             <!-- <a href="#" class="nav-link">Contact</a> -->
           </div>
@@ -42,7 +44,7 @@
     
     <section>
     <!-- Hamburger button -->
-    <button id="menu-button" onclick="toggleMenu()" class="menu-button"><img src="assets/icons/buttonHamburger.svg"></button>
+    <!-- <button id="menu-button" onclick="toggleMenu()" class="menu-button"><img src="assets/icons/hamburger-icon.svg"></button> -->
     
     <div id="mobile-menu" class="hidden">
         <div id="mobile-links">
@@ -53,17 +55,19 @@
     </section>
             
     <div class="hero-container">
-      <div class="container">
+      <div class="container container-content">
         <h1 class="hero-tagline">
-          We're a <span class="tagline">Super Awesome</span> web development
-          company!
+          We help business owners with website
+development, website design, and
+search engine optimization (SEO).
         </h1>
-        <a href="/about" class="hero-button">More About Super Awesome</a>
+        <!-- <a href="/about" class="hero-button">Learn How →</a> -->
+        <span class="coming-soon">COMING SOON 2020</span>
       </div>
     </div>
     <footer>
-      <div class="container">
-        <div class="columns">
+      <div class="container footer-container">
+        <div class="columns footer-content">
           <div class="left-column">
             <p class="footer-header">Super Subscribe</p>
             <!-- Begin Mailchimp Signup Form -->
@@ -87,11 +91,11 @@
 
           <!-- Right Column -->
           <div class="right-column">
-            <p class="footer-header ">Awesome Social Media</p>
-            <p>
+            <p class="footer-header social-media-header">Awesome Social Media</p>
+            <p id="social-media-links">
               <a
                 href="https://twitter.com/SuperAwesomeX"
-                class="social-media-links column-text "
+                class="social-media-link column-text "
                 target="_blank"
                 rel="noopener noreferrer"
                 >Twitter</a
@@ -99,7 +103,7 @@
               <span class="social-media-after"></span>
               <a
                 href="https://www.instagram.com/superawesomelabs/"
-                class="social-media-links column-text"
+                class="social-media-link column-text"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Instagram</a
@@ -107,7 +111,7 @@
               <span class="social-media-after"></span>
               <a
                 href="https://www.linkedin.com/company/super-awesome-labs/"
-                class="social-media-links column-text"
+                class="social-media-link column-text"
                 target="_blank"
                 rel="noopener noreferrer"
                 >LinkedIn</a
@@ -120,7 +124,8 @@
     </footer>
     <div class="copyright">
       <div class="container copyright-container">
-        <p>© Super Awesome</p>
+        <p class="copyright-left"><span class="copyright-brand">© Super Awesome. </span>All Rights Reserved | Privacy Notice</p>
+        <p class="company-note">Everyone is welcome here (except jerks!) <img src="assets/icons/pride-flag.png" id="pride-flag"></p>
       </div>
     </div>
     <script src="nav.js" /></script>
