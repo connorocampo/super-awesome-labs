@@ -294,7 +294,6 @@ input[type="submit"] {
   /* 	Change the second value to adjust the height */
   background-size: 100% 50%;
   font-size: 18px;
-  margin-left: -10px;
   padding-left: 10px;
   padding-bottom: 10px;
 }
@@ -463,10 +462,11 @@ footer {
 
 #pride-flag {
   margin-left: 10px;
-  margin-bottom: -2px;
+  margin-bottom: -3px;
 }
 
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) { */
+@media screen and (min-width: 899px) {
   #menu-button {
     display: none;
   }
@@ -476,7 +476,8 @@ footer {
   }
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) { */
+@media screen and (max-width: 899px) {
   .desktop-logo {
     display: none;
   }
@@ -488,7 +489,7 @@ footer {
   .header-tagline {
     display: block;
     font-size: 16px;
-    margin-top: -75px;
+    margin-top: -76px;
     margin-left: 115px;
     width: 153px;
   }
@@ -550,6 +551,6 @@ footer {
 
   .company-note {
     font-size: 16px;
-    padding: 25px 0 50px 0;
+    padding: 25px 0;
   }
 }
